@@ -1,0 +1,59 @@
+#Portfolio settings
+
+title: Emma Orley
+email: emmaorley9@gmail.com
+description: Mixed Meida // Textile Designer // Blogger
+
+#MENU ITEM LIST
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Experience, url: '#experience'}
+- {name: Blog, url: '#'}
+- {name: Contact, url: '#contact'}
+
+#SKILL SET
+
+skills:
+- {name: Creativity, value: '9'}
+- {name: Fabric Manipulation, value: '8'}
+- {name: Communication, value: '7'}
+- {name: Embriodery, value: '7'}
+- {name: Problem - Solving, value: '6'}
+- {name: Trend Awarness, value: '8'}
+- {name: Initiative, value: '8'}
+- {name: Digital Print, value: '8'}
+
+
+# WORK SECTION
+
+projects:
+- {name: Miami Daze, folder: 'proj-1'}
+- {name: Dreamland, folder: 'proj-2'}
+- {name: Softsounds, folder: 'proj-3'}
+- {name: Trend Book, folder: 'proj-4'}
+- {name: Other, folder: 'proj-5'}
+- {name: Other 2, folder: 'proj-6'}
+
+
+#EXPERIENCE SECTION
+
+clients:
+- {logo: 'logo2.png', quote: '<p>6 week Internship in which I was asked to create a <strong>Trend Forecast Book and App to work alongside Red Rubix Media’s Fashion Brand, Macriel.</strong> I worked with a team of people, attending meetings and briefings about my work and the progress I had been making, whilst voicing ideas and opinions that I had for the project.</p>'}
+- {logo: 'logo1.png', quote: '<p>I volunteered to help with my University Student Radio Station, Demon FM’s Music team in my second and third year of University.I worked with a team of roughly 6-10 students with the stations Head of Music, where we would collectively choose songs for the stations playlists and record of the week. I also got the opportunity to interview an array of well known bands whilst volunteering, including <strong>Bombay Bicycle Club, Wolf Alice and The Family Rain.</strong> Which helped improve my communicational skills, journalistic skills and confidence.</p>'}
+- {logo: 'logo3.png', quote: '<p>CAMAC 6th Annual Student Wallpaper Competition 2014: ShortlistedI created a unique wallpaper to a specific brief and deadline.Competed against other students from around the Country and gained insight into how a fast paced industry works. Allowed me to gain contacts and begin networking.</p>'}
+
+#CONTACT SECTION
+
+social:
+- {icon: 'facebook', link: 'https://facebook.com'}
+- {icon: 'instagram', link: 'https://facebook.com'}
+- {icon: 'twitter', link: 'https://facebook.com'}
+- {icon: 'pinterest', link: 'https://facebook.com'}
+- {icon: 'behance', link: 'https://facebook.com'}
+
+#change the site default images and content here!
+bg-img: headimage2.jpg
+avatar: profile-icon.jpg
+blurb: <p><strong>I am a Textile Designer,</strong> Graduating from De Montfort University specialising in Mixed Media. I have established a style that consists of a simple clean cut designs and cool colour combinations which are often applied to interior uses, such as wallpapers. My inspiration comes from a vast array of collected imagery, music and surroundings and i always enjoy creating concepts for my projects, which lead to my fascination and understanding of trend forecasting and creating my own trend book. It is important to me that my creations are unique and special with great concepts.</p>

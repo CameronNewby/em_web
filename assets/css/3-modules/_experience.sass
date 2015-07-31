@@ -1,0 +1,107 @@
+.section-clients
+	position: relative
+	margin-bottom: 20px
+
+	h3
+		padding: 40px 0 30px
+
+.clients-belt
+	width: 100%
+	position: relative
+
+	.client-unit
+		max-width: 700px
+		margin: 0px auto
+		position: relative
+		z-index: 1
+		display: none
+
+		&.active-client
+			+display(flex)
+
+		.client-content
+			font-size: 18px
+			line-height: 30px
+			font-weight: 300
+			margin-top: -10px
+			position: relative
+			text-align: center
+
+// Logos
+.clients-logos
+	position: relative
+	max-width: 700px
+	margin: 0px auto 100px
+	z-index: 2
+	+display(flex)
+	+align-items(flex-end)
+	+justify-content(space-around)
+
+	.client-logo
+		cursor: pointer
+		margin: 0 20px
+		padding-bottom: 10px
+		border-bottom: 4px solid transparent
+		opacity: 0.5
+
+		&.active-client
+			border-bottom: 4px solid $accent
+			opacity: 1
+
+.swipe-icon
+	display: none
+
+.client-quote-mark
+	+position(absolute, -20px null null -15px)
+	+size(20px)
+	z-index: -1
+	opacity: 0.3
+
+	path
+		fill: $accent
+
+.client-controls
+	+position(absolute, 0px 0px 0px 0px)
+	opacity: 0.5
+	z-index: 2
+
+	> div
+		+size(40px)
+		cursor: pointer
+	
+	.client-control-next
+		+position(absolute, 50% 10px null null)
+
+	.client-control-prev
+		+position(absolute, 50% null null 10px)
+
+
+@media (max-width: 700px)
+	.client-controls
+		display: none
+
+	.clients-belt
+
+		.client-unit.active-client
+			display: block
+			position: relative
+			margin-left: 0px
+			left: auto
+
+			.client-content
+				padding: 0px 30px
+				max-width: 400px
+				margin: 0px auto
+
+			.client-quote-mark
+				left: 15px
+
+	.clients-logos
+		display: none
+
+	.swipe-icon
+		display: block
+		+size(30px)
+		z-index: -1
+		opacity: 0.4
+		margin: auto

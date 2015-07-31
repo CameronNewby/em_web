@@ -1,0 +1,50 @@
+.section-contact
+	background: #ebe5ef
+	text-align: center
+	overflow: hidden
+
+	h3
+		padding: 40px 0 30px
+
+.social-links
+	max-width: 700px
+	margin: 0px auto 50px
+	+display(flex)
+	+justify-content(space-around)
+
+	a
+		display: block
+		//background: $accent
+		border: 2px solid $accent
+		+size(50px)
+		text-align: left
+		line-height: 50px
+		color: $accent
+		border-radius: 50%
+		font-size: 28px
+		position: relative
+		+transition()
+
+
+		&:hover
+			+transform(scale(1.2))
+			color: white
+			background: $accent
+			opacity: 1
+
+.line
+	max-width: 200px
+	margin: 20px auto 20px
+	border-bottom: 4px solid $accent
+
+.email
+	display: block
+	font:
+		size: 8vw
+		weight: 300
+	line-height: 1
+	width: 100%
+	margin: 0px auto 40px
+	color: $accent
+	padding-bottom: 10px
+

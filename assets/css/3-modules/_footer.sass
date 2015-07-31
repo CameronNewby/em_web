@@ -1,0 +1,72 @@
+footer
+	background: url(../img/footimage.jpg) center center
+	background-size: cover
+	height: 120px
+
+
+	.lockup
+		padding: 30px 40px
+		+clearfix
+
+		.content-wrap
+			float: left
+
+			.copyright
+				margin-left: 20px 
+				text-transform: uppercase
+				font-size: 10px
+				color: rgba(0,0,0,0.4)
+
+			nav
+
+				a
+					display: inline-block
+					margin-left: 20px
+
+					color: rgba(0,0,0,0.5)
+					font:
+						size: 12px
+						weight: 700
+					text-transform: uppercase
+				
+
+					&:hover
+						color: rgba(0,0,0,1)
+
+@media screen and (max-width: 610px)
+	footer
+		height: 80px
+
+		.lockup
+			padding: 0px
+
+			.content-wrap
+				width: 100%
+				padding-top: 10px
+
+				.copyright
+					margin-left: 20px 
+					text-transform: uppercase
+					font-size: 8px
+					color: rgba(0,0,0,0.4)
+
+				nav
+					width: 100%
+					text-align: center
+					
+					a
+						display: inline-block
+						margin: 0 10px 0 10px
+
+						color: rgba(0,0,0,0.5)
+						font:
+							size: 2.7vw
+							weight: 500
+						text-transform: uppercase
+						
+
+						&:hover
+							color: rgba(0,0,0,1)
+
+					
+			
