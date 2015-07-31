@@ -108,3 +108,19 @@
 		h4
 			margin-left: 60px
 
+	.thumb-container
+
+		.thumb-unit
+			+perspective(0)
+
+			.thumb-overlay
+				+position(absolute, 0% 0px null 0px)
+				height: 100%
+				background: none
+				text-align: center
+				+display(flex)
+				+align-items(center)
+				+justify-content(space-around)
+				opacity: 1
+				+transform(rotateX(0deg))
+
