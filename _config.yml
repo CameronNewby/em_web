@@ -1,6 +1,6 @@
 # Build settings
 
-#baseurl: emma_portfolio
+baseurl: http://www.emmaorley.co.uk/
 markdown: kramdown
 permalink: pretty
 
