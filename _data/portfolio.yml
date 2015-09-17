@@ -10,7 +10,7 @@ menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
 - {name: Experience, url: '#experience'}
-- {name: Blog, url: '#'}
+- {name: Blog, url: 'https://medium.com/@justaglimmer'}
 - {name: Contact, url: '#contact'}
 
 #SKILL SET
